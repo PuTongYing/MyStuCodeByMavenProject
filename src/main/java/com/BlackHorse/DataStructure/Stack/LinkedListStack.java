@@ -6,7 +6,7 @@ import java.util.StringJoiner;
 /**
  * @Author: 小蔡
  * @Date: 2023/12/29 0:59
- * @description: None
+ * @description: 以链表形式实现栈
  */
 public class LinkedListStack<E> implements Stack<E>, Iterable<E> {
     private int capacity = Integer.MAX_VALUE;
